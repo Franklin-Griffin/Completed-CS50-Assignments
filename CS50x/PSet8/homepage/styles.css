@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+    font-family: "Courier New", "serif";
+}
+
+body {
+    background-color: grey;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

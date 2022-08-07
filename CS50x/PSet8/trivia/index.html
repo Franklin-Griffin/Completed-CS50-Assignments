@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                let right = document.querySelector('#right');
+                right.addEventListener('click', function() {
+                    right.style.backgroundColor = 'green';
+                    document.querySelector('#response').innerHTML = 'Correct!';
+                });
+
+                let wrongs = document.querySelectorAll('.wrong');
+                for (let i = 0; i < wrongs.length; i++) {
+                    wrongs[i].addEventListener('click', function() {
+                        wrongs[i].style.backgroundColor = 'red';
+                        document.querySelector('#response').innerHTML = 'Incorrect';
+                    });
+                }
+
+                document.querySelector('#check').addEventListener('click', function() {
+                    let input = document.querySelector('input');
+                    if (input.value == 'J' || input.value == 'j') {
+                        input.style.backgroundColor = 'green';
+                        document.querySelector('#response2').innerHTML = 'Correct!';
+                    } else {
+                        input.style.backgroundColor = 'red';
+                        document.querySelector('#response2').innerHTML = 'Incorrect';
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice</h2>
+                <hr>
+                <h3>What does David Malan most frequently say at the end of a CS50 lecture?</h3>
+
+                <button class="wrong">Foo bar baz</button>
+                <button id="right">This was CS50</button>
+                <button class="wrong">Lorem ipsum</button>
+
+                <p id="response"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+
+                <h3>What is David Malan's middle initial?</h3>
+                <input type="text">
+                <br>
+                <button id="check">Check your answer!</button>
+
+                <p id="response2"></p>
+            </div>
+        </div>
+    </body>
+</html>

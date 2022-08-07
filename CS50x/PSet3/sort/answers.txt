@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: It is able to solve sorted50000.txt over 6 times faster than sort3, which makes sense because it runs on (omega) _O_(n) time complexety versus selection sort's _O_(n ^ 2)
+
+sort2 uses: Merge sort
+
+How do you know?: It solves random5000.txt significantly (1.5x) faster than any other algoritm, which makes sense seeing as it runs on O(n log n) time complexity while the others all run on O(n ^ 2)
+
+sort3 uses: Selection sort
+
+How do you know?: Process of elimination based on other information, and the fact that it was so slow solving sorted50000.txt (3 seconds, relatively slow).

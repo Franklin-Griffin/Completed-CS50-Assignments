@@ -1,5 +1,11 @@
+# ⚠️Archived and split into smaller repos: 
+
+[https://github.com/Franklin-Griffin/Completed-CS50x-Assignments](https://github.com/Franklin-Griffin/Completed-CS50x-Assignments), [https://github.com/Franklin-Griffin/Completed-CS50ai-Assignments](https://github.com/Franklin-Griffin/Completed-CS50ai-Assignments), [https://github.com/Franklin-Griffin/Completed-GD50-Assignments](https://github.com/Franklin-Griffin/Completed-GD50-Assignments) (more to come?)
+
 # Completed-CS50-Assignments
 Completed assignments (except final projects) of CS50
+
+⚠️Do not cheat⚠️ with this repo! Keep in mind [CS50's academic honesty policy](https://cs50.harvard.edu/x/2023/honesty/).
 
 CS50x: complete! 
 
